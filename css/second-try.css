@@ -1,0 +1,769 @@
+@font-face{
+	font-family: klinic-bold;
+	src:url(../fonts/klinicslabmedium.otf);
+}
+
+@font-face{
+	font-family: klinic-med;
+	src:url(../fonts/klinicslabmedium.otf);
+}
+@font-face{
+	font-family: jos-light;
+	src:url(../fonts/josefinsans-light.ttf);
+}
+@font-face{
+	font-family: jos-reg;
+	src:url(../fonts/josefinsans-regular.ttf);
+}
+@font-face{
+	font-family: jos-semi-bold;
+	src:url(../fonts/joesfinsans-semibold.ttf);
+}
+@font-face{
+	font-family: klinic-book;
+	src:url(../fonts/klinicslabbook.otf);
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	top: -15px;
+	
+}
+
+li a {
+	position: relative;
+	display: block;
+	padding: 30px;
+	background-color: #FF6142;
+	width: 500%;
+}
+
+li.logo {
+	font-size: 35pt;
+	position: relative;
+	top: -20;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #FF907B;
+}
+
+a.logo-link:hover {
+	color: white;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 25px;
+  padding-top: 10px;
+ 	background-color: #FF6142;
+	color: white;
+	font-family: jos-reg;
+	font-size: 18pt;
+
+}
+
+span.logo {
+	font-family: klinic-bold;
+	font-size: 40pt;
+}
+
+.recent {
+	font-family: klinic-med;
+	font-size: 40pt;
+	position: relative;
+	top: 150px;
+	left: 50px;
+	color: #808080;
+}
+
+.stories {
+	font-family: jos-reg;
+	font-size: 35pt;
+}
+
+img {
+	width: 500px;
+}
+
+img.sign {
+	position: relative;
+	top: 170px;
+	left: 50px;
+}
+
+.sign-title {
+	font-family: klinic-bold;
+	font-size: 25pt;
+}
+
+.emergency-text {
+	width: 500px;
+	position: relative;
+	left: 575px;
+	top: -170px;
+	color: #808080;
+
+}
+
+.sign-author {
+	font-family: jos-reg;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+.sign-date {
+	font-family: jos-light;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+.recycling-text {
+	width: 500px;
+	position: relative;
+	left: 575px;
+	color: #808080;
+	top: -240px;
+}
+
+.bins-title {
+	font-family: klinic-bold;
+	font-size: 25pt;
+}
+
+
+img.bins {
+	position: relative;
+	top: 100px;
+	left:50px;
+}
+
+.bins-author {
+	font-family: jos-reg;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+.bins-date {
+	font-family: jos-light;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+img.lady {
+	position: relative;
+	top: 35px;
+	left:50px;
+}
+
+.fighting-text {
+	width: 500px;
+	position: relative;
+	left: 575px;
+	color: #808080;
+	top: -305px;
+}
+
+.lady-title {
+	font-family: klinic-bold;
+	font-size: 25pt;
+}
+
+.lady-author {
+	font-family: jos-reg;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+.lady-date {
+	font-family: jos-light;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+img.wind {
+	position: relative;
+	top: -60px;
+	left:50px;
+}
+
+.wind-text {
+	width: 500px;
+	position: relative;
+	left: 575px;
+	color: #808080; 
+	top: -400px;
+}
+
+.wind-title {
+	font-family: klinic-bold;
+	font-size: 25pt;
+	margin-top: 5px;
+}
+
+.wind-author {
+	font-family: jos-reg;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+.wind-date {
+	font-family: jos-light;
+	font-size: 15pt;
+}
+
+.weather-background {
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	top: 270px;
+	right: 50px;
+}
+
+.now-weather {
+	font-family: klinic-med;
+	font-size: 20pt;
+	color:#FF6142;
+	position: absolute;
+	top: -60px;
+	right: 280px;
+}
+
+span.now-temp {
+	font-family: jos-reg;
+}
+
+span.deg-f {
+	font-family: jos-light;
+	font-size: 15pt;
+}
+
+.today {
+	font-family: klinic-med;
+	font-size: 20pt;
+	position: absolute;
+	right: 10px;
+	top: -60px;
+	color: #FF6142;
+}
+
+span.sunny {
+	font-family: jos-reg;
+	font-size: 18pt;
+}
+
+.today-h-l {
+	font-family: jos-reg;
+	font-size: 12pt;
+}
+
+img.weather-chart {
+	width: 350px;
+}
+
+.events-text {
+	font-family: klinic-med;
+	font-size: 20pt;
+	position: absolute;
+	top: 325px;
+	color: #808080; 
+	right:60px;
+}
+
+span.events {
+	font-size: 17pt;
+	font-family: jos-reg;
+}
+
+img.events-chart {
+	width: 350px;
+	position: absolute;
+	top: 360px;
+	right: 0px;
+}
+
+img.ad-home1 {
+	position: absolute;
+	right: 50px;
+	top: 1050px;
+	width: 350px;
+}
+
+img.ad-home2 {
+	position: absolute;
+	right: 50px;
+	top: 1170px;
+	width: 350px;
+}
+img.ad-home3 {
+	position: absolute;
+	right: 50px;
+	top: 1290px;
+	width: 350px;
+}
+img.ad-home4 {
+	position: absolute;
+	right: 50px;
+	top: 1410px;
+	width: 350px;
+}
+
+
+img.sun {
+	width: 50px;
+	position: absolute;
+	top: 205px;
+	right: 260px;
+
+	-webkit-animation:rotate 10s linear infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+
+/*#sun {
+		-webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotate {
+	0% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-tansform:rotate(360deg);}
+}*/
+
+.articles {
+	position: absolute;
+	top:0px;
+	height: 1000px;
+}
+
+#container-home {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+
+
+/*NOW STARTS SHORT FORM ARTICLES*/
+
+.short-article-title {
+
+	position: absolute;
+	top:200px;
+}
+
+.group-title {
+	font-family: klinic-bold;
+	font-size: 35pt;
+	position: absolute;
+	top: -40px;
+	left: 50px;
+	color: #808080;
+	width: 1000px;
+}
+
+.group-author {
+	font-family: jos-reg;
+	font-size: 18pt;
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	color:#808080;
+	width: 1000px;
+}
+
+span.group-date {
+	font-family: jos-light;
+}
+
+img.group-pic {
+	width: 700px;
+	position: absolute;
+	top: 250px;
+	left: 50px;
+}
+
+.orange-des {
+	background-color: #FF8D77;
+	position: absolute;
+	top: 250px;
+	left: 775px;
+	width: 500px;
+	height: 470px;
+}
+
+.orange-des-large {
+	font-family: klinic-bold;
+	font-size: 38pt;
+	color: white;
+	width: 457px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	line-height: 55px;
+}
+
+.orange-des-small {
+	font-family: klinic-book;
+	font-size: 20pt;
+	width: 450px;
+	position: absolute;
+	left: 20px;
+	top:300px;
+	line-height: 30px;
+	color: white;
+}
+
+.group-body {
+	width: 700px;
+	font-family: jos-reg;
+	font-size: 15pt;
+	position: absolute;
+	top: 725px;
+	left: 350px;
+	color: #808080;
+	line-height: 30px;
+}
+
+span.short-quote {
+	font-family: klinic-bold;
+	font-size: 30pt;
+	color: #FFA391;
+	width: 300px;
+	position: relative;
+	text-align: center;
+	line-height: 50px;
+}
+
+p.short-text {
+	margin-top:30px;
+}
+
+.quote-mid {
+	position: relative;
+	left: 100px;
+	width: 475px;
+}
+
+span.quote-from {
+	text-indent: 100px;
+}
+
+iframe.trail-vid {
+	margin-top: 20px;
+}
+
+img.ad-group1 {
+	position: absolute;
+	top: 2150px;
+	left: 200px;
+}
+
+img.ad-group2 {
+	position: absolute;
+	top: 2150px;
+	right: 200px;
+}
+
+#container-short1 {
+	height: 2350px;
+}
+
+/*NOW STARTS SHORT FORM 2*/
+
+iframe.group-pic {
+	position: absolute;
+	top: 300px;
+	left: 50px;
+}
+
+.emergency-author {
+	font-family: jos-reg;
+	font-size: 18pt;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	color:#808080;
+	width: 1000px;
+}
+
+.orange-des-em {
+	background-color: #FF8D77;
+	position: absolute;
+	top: 300px;
+	left: 775px;
+	width: 500px;
+	height: 390px;
+}
+
+.orange-des-large-em {
+	font-family: klinic-bold;
+	font-size: 26pt;
+	color: white;
+	width: 457px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	line-height: 45px;
+}
+
+
+img.ad-short1 {
+	position: absolute;
+	top: 1600px;
+	left: 200px;
+}
+
+img.ad-short2 {
+	position: absolute;
+	top: 1600px;
+	right: 200px;
+}
+
+#container-short2 {
+	height: 1800px;
+}
+
+/*NOW STARTS LONG FORM*/
+
+img.smoke-pic {
+	width: 1500px;
+	position: absolute;
+	top: -500px;
+	z-index: -1;
+}
+
+#smoke-quote-top {
+	font-family: klinic-bold;
+	font-size: 38pt;
+	position: absolute;
+	top: 180px;
+	width: 350px;
+	color: #FF907B;
+	left: 365px;
+	z-index: 1;
+	text-align: center;
+	display: none;
+
+
+}
+
+span.top-marks {
+	color: #FF6142;
+}
+
+.long-heading {
+	position: absolute;
+	width: 700px;
+	top: 650px;
+	left: 375px;
+
+}
+
+.long-title {
+	font-family: klinic-bold;
+	font-size: 45pt;
+	color: #808080;
+}
+
+.long-author {
+	font-family: jos-reg;
+	font-size: 15pt;
+	color: #808080;
+}
+
+span.long-date {
+	font-family: jos-light;
+}
+
+.long-text {
+	width: 700px;
+	font-family: jos-reg;
+	font-size: 15pt;
+	position: absolute;
+	top: 850px;
+	left: 350px;
+	color: #808080;
+	line-height: 30px;
+	left: 375px;
+}
+
+p.long-paragraphs {
+	margin-top:30px;
+}
+
+p.fire-fact-spacing {
+	margin-top: 45px;
+}
+
+.fire-fact {
+	font-family: klinic-bold;
+	font-size: 60pt;
+	color: #FF6142;
+	text-align: center;
+}
+
+span.states-fact {
+	font-size: 25pt;
+	margin-top: 10px;
+	color: #FFA391;
+
+}
+
+p.p-quote {
+	margin-top: 15px;
+}
+
+img.fire-left {
+	width: 75px;
+	position: absolute;
+	top: 525px;
+	left: 55px;
+}
+
+img.fire-right {
+	width: 75px;
+	position: absolute;
+	top: 525px;
+	left: 565px;
+}
+
+.light-box {
+	width: 700px;
+	background-color: #FFDCD5;
+	height: 60px;
+	font-family: klinic-bold;
+	font-size: 30pt;
+	color: #FF907B;
+
+}
+
+p.light-title {
+	position: absolute;
+	top: 960px;
+	margin-left: 10px;
+}
+
+.dark-box {
+	width: 700px;
+	background-color: #FF907B;
+	height: 500px;
+	position: absolute;
+
+}
+
+p.dark-paragraphs {
+	
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+	font-family: klinic-book;
+	font-size: 20pt;
+}
+
+p.dark-paragraphs-1 {
+	margin-top: 20px;
+	color: white;
+	font-family: klinic-book;
+	font-size: 20pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img.long-fire-pic {
+	position: relative;
+	width: 700px;
+	top: 50px;
+}
+
+p.long-paragraphs-after {
+	position: relative;
+	top: 500px;
+	line-height: 30px;
+	margin-top:30px;
+}
+
+span.defensible-quote {
+	color: #FF6142;
+	font-family: klinic-bold;
+	font-size: 25pt;
+}
+
+span.defensible-text {
+	color: #FFA391;
+}
+
+p.long-paragraphs-after2 {
+	position: relative;
+	top: 555px;
+	line-height: 30px;
+	margin-top:30px;
+}
+
+.saftey-quote {
+	font-family: klinic-bold;
+	font-size: 35pt;
+	position: absolute;
+	top: 2775px;
+	line-height: 55px;
+	color: #FF907B;
+}
+
+#container-long {
+	height: 3850px;
+}
+
+/*CSS ANIMATION*/
+/*
+@-webkit-keyframes rotate {
+	0% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-tansform:rotate(360deg);}
+}
+
+#sun {
+	-webkit-animation:rotate 9s linear infinite;
+	-webkit-animation-fill-mode: forwards;
+}*/
+
+@-webkit-keyframes fire-fade {
+	0% {opacity:25; }
+	100% {opacity:100; }
+}
+
+img.fire-right, img.fire-left {
+	opacity: 25;
+	-webkit-animation:fire-fade 10s infinite linear;
+	-webkit-animation-fill-mode:forwards;
+}
+
+
+
+
+
+
+
